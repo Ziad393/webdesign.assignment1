@@ -1,0 +1,175 @@
+body {
+    color:bisque;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{ background-color: bisque;
+    color:brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ nav h1{
+    font-size: 170%;
+    font-weight: bolder;
+ }
+ nav ul li{
+   font-size: 120%;
+    list-style-type: none;
+    display: inline;
+    padding: 10px 20px;
+ }
+
+ #container{
+    background-image: url('../images/wallpaper1.jpg');
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    text-decoration-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+ }
+ 
+#container .left{
+    width:50% 
+}
+
+#container .right{
+    width:50%
+}
+
+ #container .right img{
+  
+    padding-top: 50px;
+
+ }
+
+ #container button{
+    font-size: 100%;
+    font-weight: bolder;
+    color: bisque;
+    background-color: brown;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+
+ #container2{
+   background-image: url('../images/bricks1.jpg');
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #container2 h1{
+    padding-left: 40%;
+    color: lightsalmon;
+    font-size: 300%;
+
+ }
+
+ #container2 .top{
+    display: flex;
+ }
+
+ #container2 figure{
+    font-size: 30px;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+ }
+
+ #container2 .bottom{
+    padding-top: 75px;
+    padding-left: 45%;
+ }
+
+ #container2 button{
+    font-size: 100%;
+    font-weight: bolder;
+    color: bisque;
+    background-color: brown;
+    outline: none;
+    border: none;
+    padding: 20px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+
+ #container3{
+   background-image: url('../images/darkwood.jpg');
+   background-repeat: no-repeat, repeat;
+   background-size: cover;
+   padding-top: 30px;
+   padding-left: 175px;
+   justify-content: center;
+   align-items: center;
+ }
+
+ #container3 h1{
+   color: bisque;
+   padding-left: 240px;
+ }
+
+ #container3 img{
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-bottom: 10px;
+ }
+
+ #container4{
+   background-image: url('../images/bg2.jpg');
+   background-repeat: no-repeat, repeat;
+   background-size: cover;
+   text-decoration-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 30px;
+   padding-bottom: 60px;
+ }
+
+ #container4 .left{
+   color: bisque;
+   width: 30%;
+   padding-left: 50px;
+ }
+
+
+ #container4 .right img{
+   padding-left: 30%;
+ }
+
+ #container4 .right{
+   width: 50%;
+ }
+ 
+
+ footer{
+background-color: bisque;
+font-size: large;
+padding-bottom: 20px;
+ }
+
+ footer p1{
+  color:black;
+  
+ }
+  
+footer p2{
+   color: brown; 
+   padding-left:45%; 
+   font-size: x-large;
+}
+
+
+ 
